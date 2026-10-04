@@ -2,7 +2,7 @@
 description: Orchestrate repository initialization, Rust project generation, local CI scripts, workflow setup, and read-only checks.
 ---
 
-# /init
+# init-agent
 
 ## Preconditions
 
