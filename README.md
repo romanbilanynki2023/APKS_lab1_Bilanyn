@@ -14,7 +14,7 @@ GitHub: https://github.com/romanbilanynki2023
 ## Запуск AI-агента
 1. Відкрити репозиторій у VS Code з активним GitHub Copilot.
 2. Відкрити Copilot Chat і вибрати режим Agent.
-3. Виконати команду `/init` (orchestrator). Вона послідовно запускає git-init, create-project, create-build, create-actions і check.
+3. Виконати команду `/init-agent` (orchestrator). Вона послідовно запускає git-init, create-project, create-build, create-actions і check.
 4. Окремі команди: `/git-init`, `/create-project`, `/create-build`, `/create-actions`, `/check`.
 
 ## Запуск проєкту
