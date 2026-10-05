@@ -12,8 +12,11 @@
 У Copilot Chat виконайте:
 
 ```text
-/init
+/init-agent
 ```
+
+Запускайте команду в новому чаті: `/init` перехоплюється вбудованою командою
+VS Code, тому може виконатися не цей prompt.
 
 Оркестратор послідовно запускає `/git-init`, `/create-project`,
 `/create-build`, `/create-actions` і `/check`. При першій помилці він зупиняє

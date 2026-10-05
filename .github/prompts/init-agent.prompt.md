@@ -45,6 +45,6 @@ an external target directory.
 ## Error message
 
 On the first failure, stop and report:
-`/init stopped at <prompt>: <command or requirement and error>. Later prompts were not run.`
+`/init-agent stopped at <prompt>: <command or requirement and error>. Later prompts were not run.`
 Do not retry a failed stage in a way that overwrites files, and do not claim
 overall success unless `/check` passes.
